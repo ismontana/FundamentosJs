@@ -60,5 +60,21 @@ console.log(doble);
 
 /*function duplica(num){
     return num * 2;
+}*/
+
+// Funciones con parametros opcionales
+const welcomeToMexico = (user = 'Invitado') => {
+    console.log(`Bienvenido a México ${ user }`);
 }
-*/
+
+welcomeToMexico();
+welcomeToMexico("Yo?????");
+
+// Parametros con nombre
+const welcomeToUtt = (user = 'Invitado',
+                        city = 'México') => {
+                    console.log(`Bienvenido ${ user } de ${ city }`)
+}
+welcomeToUtt();
+welcomeToUtt('Novita', 'Honduras');
+welcomeToUtt(city = 'Apizaco', user = 'Aquaman')
