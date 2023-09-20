@@ -68,4 +68,3 @@ console.log(numbers.every(num => num > 4));
 
 console.log(fruits);
 console.log(fruits.join(' - '));
-
